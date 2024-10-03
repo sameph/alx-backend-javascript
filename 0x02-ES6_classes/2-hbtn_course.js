@@ -1,11 +1,11 @@
 class HolbertonCourse {
   constructor(name, length, students) {
-    this._name = name;
-    this._length = length;
-    this._students = students;
+    this.name = name;
+    this.length = length;
+    this.students = students;
   }
 
-  /*
+  /**
    * @param {String} name
    */
   set name(name) {
@@ -19,7 +19,7 @@ class HolbertonCourse {
     return this._name;
   }
 
-  /*
+  /**
    * @param {Number} length
    */
   set length(length) {
