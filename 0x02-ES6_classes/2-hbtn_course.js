@@ -1,4 +1,4 @@
-export default class HolbertonCourse {
+class HolbertonCourse {
   constructor(name, length, students) {
     this._name = name;
     this._length = length;
@@ -48,3 +48,5 @@ export default class HolbertonCourse {
     return this._students;
   }
 }
+
+export default HolbertonCourse;
